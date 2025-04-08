@@ -76,7 +76,7 @@ export default function Index() {
                         onChange={(e) => setValue({ ...value, privacyPolicy: e.target.checked })}
                         className="focus:ring-2 focus:ring-emerald-600"
                     />
-                    Ich akzeptiere die <a href="#" className="text-emerald-500">Datenschutzerklärung</a>.
+                    Ich akzeptiere die <a href="/privacy-policy" className="text-emerald-500">Datenschutzerklärung</a>.
                 </label>
 
                 <button 

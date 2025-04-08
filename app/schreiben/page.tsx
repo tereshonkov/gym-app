@@ -5,6 +5,7 @@ type FormValue = {
     name: string;
     email: string;
     category: string;
+    area: string;
     privacyPolicy: boolean;
 }
 
@@ -13,6 +14,7 @@ export default function Index() {
         name: "",
         email: "",
         category: "1",
+        area: "",
         privacyPolicy: false,  // Додано стан для чекбоксу
     });
     const [showPopup, setShowPopup] = useState(false);
@@ -30,6 +32,7 @@ export default function Index() {
             name: "",
             email: "",
             category: "1",
+            area: "",
             privacyPolicy: false,  // Скидаємо значення чекбоксу після відправки форми
         });
         setShowPopup(true); 
@@ -68,8 +71,14 @@ export default function Index() {
                     <option value="2">Für Zuhause</option>
                     <option value="3">Andere</option>
                 </select>
-
-                {/* Чекбокс для політики конфіденційності */}
+                <textarea
+                    value={value.area}
+                    onChange={(e) => setValue({ ...value, area: e.target.value })}
+                    placeholder="Ihre Nachricht"
+                    className="p-4 bg-gray-800 text-white rounded-lg border-2 border-gray-700 focus:outline-none focus:ring-2 focus:ring-emerald-600 transition duration-300"
+                    rows={4}
+                ></textarea>
+                
                 <label className="text-sm text-gray-400 flex items-center gap-2">
                     <input
                         type="checkbox"
@@ -77,7 +86,7 @@ export default function Index() {
                         onChange={(e) => setValue({ ...value, privacyPolicy: e.target.checked })}
                         className="focus:ring-2 focus:ring-emerald-600"
                     />
-                    Ich akzeptiere die <a href="#" className="text-emerald-500">Datenschutzerklärung</a>.
+                    Ich akzeptiere die <a href="/privacy-policy" className="text-emerald-500">Datenschutzerklärung</a>.
                 </label>
 
                 <button 
