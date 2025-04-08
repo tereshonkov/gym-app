@@ -20,7 +20,7 @@ export default function Nav() {
           </li>
           <li>
             <a
-              href="#"
+              href="#clients"
               className="hover:bg-green-500 rounded-2xl p-2 w-[150px] h-[30px] text-white flex items-center justify-center cursor-pointer bg-emerald-700"
             >
               Kunden
@@ -28,7 +28,7 @@ export default function Nav() {
           </li>
           <li>
             <a
-              href="#"
+              href="#unsere"
               className="hover:bg-green-500 rounded-2xl p-2 w-[180px] h-[30px] text-white flex items-center justify-center cursor-pointer bg-emerald-700"
             >
               Unsere Produktpalette
@@ -36,7 +36,7 @@ export default function Nav() {
           </li>
           <li>
             <a
-              href="#"
+              href="#arrangement"
               className="hover:bg-green-500 rounded-2xl p-2 w-[150px] h-[30px] text-white flex items-center justify-center cursor-pointer bg-emerald-700"
             >
               Arrangement
@@ -44,7 +44,7 @@ export default function Nav() {
           </li>
           <li>
             <a
-              href="#"
+              href="#dienstleistungen"
               className="hover:bg-green-500 rounded-2xl p-2 w-[150px] h-[30px] text-white flex items-center justify-center cursor-pointer bg-emerald-700"
             >
               Dienstleistungen

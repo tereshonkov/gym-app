@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 export default function Index() {
   return (
-    <section className=" min-h-screen w-screen p-8 flex flex-col justify-around items-center gap-8 relative bg-gradient-to-b from-gray-800 to-black text-white">
+    <section id="unsere" className=" min-h-screen w-screen p-8 flex flex-col justify-around items-center gap-8 relative bg-gradient-to-b from-gray-800 to-black text-white">
       <h2 className="text-5xl text-center">Unsere Produktpalette</h2>
 
       <div className="flex gap-4 flex-wrap justify-center w-full">

@@ -37,7 +37,7 @@ export default function Index() {
     }
 
     return (
-        <div className="w-screen h-screen bg-gradient-to-b from-gray-800 to-black text-white flex flex-col items-center justify-center gap-6 p-6">
+        <div id="contact" className="w-screen h-screen bg-gradient-to-b from-gray-800 to-black text-white flex flex-col items-center justify-center gap-6 p-6">
             <h2 className="text-5xl font-bold text-center mb-4">Formular für eine Kostenlose Konsultation</h2>
             <h3 className="text-4xl text-center max-w-3xl mb-6 px-4">
                 Haben Sie Fragen oder benötigen Sie ein Beratungsgespräch mit unserem Spezialisten? Hinterlassen Sie Ihre E-Mail und wir werden Sie so schnell wie möglich kontaktieren!

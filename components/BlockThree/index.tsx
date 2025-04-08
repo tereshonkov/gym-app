@@ -18,7 +18,7 @@ const fitnessStudioTips: string[] = [
 
 export default function Index() {
   return (
-    <div className="relative w-screen min-h-screen flex flex-col items-center justify-around bg-gradient-to-b from-black to-gray-800 p-4 text-white">
+    <div id="arrangement" className="relative w-screen min-h-screen flex flex-col items-center justify-around bg-gradient-to-b from-black to-gray-800 p-4 text-white">
         <h2 className="text-5xl text-center z-10">Wie man ein Fitnessstudio einrichtet: Schritt-für-Schritt-Anleitung zur Schaffung des perfekten Trainingsraums</h2>
         <div className="flex items-center justify-center gap-5">
             <Image src="/img3.jpg" alt="Fitness" width={400} height={400} className="absolute top-0 left-0 z-0 w-full h-full"/>
@@ -34,7 +34,7 @@ export default function Index() {
            ))}
         </ul>
         </div>
-        <a href="#" className="flex mt-5 justify-center items-center self-center z-10 p-4 bg-emerald-800 hover:bg-emerald-500 rounded-3xl">Kostenlose Beratung</a>
+        <a href="#contact" className="flex mt-5 justify-center items-center self-center z-10 p-4 bg-emerald-800 hover:bg-emerald-500 rounded-3xl">Kostenlose Beratung</a>
     </div>
   )
 }
