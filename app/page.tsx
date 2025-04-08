@@ -5,6 +5,7 @@ import BlockThree from "@/components/BlockThree/BlockThree";
 import FourBlock from "@/components/FourBlock/FourBlock";
 import FormBlock from "@/components/FormBlock/FormBlock";
 import Footer from "@/components/Footer/Footer";
+import CookieAccept from "@/components/CookieAccept/CookieAccept";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <FourBlock />
       <FormBlock />
       <Footer />
+      <CookieAccept />
     </div>
   );
 }
