@@ -1,10 +1,10 @@
 import Header from "@/components/Header/header";
-import First from "@/components/FirstBlock/Index";
-import SecondBlock from "@/components/SecondBlock/Index";
-import BlockThree from "@/components/BlockThree/Index";
-import FourBlock from "@/components/FourBlock/Index";
-import FormBlock from "@/components/FormBlock/Index";
-import Footer from "@/components/Footer/Index";
+import First from "@/components/FirstBlock/FirstBlock";
+import SecondBlock from "@/components/SecondBlock/SecondBlock";
+import BlockThree from "@/components/BlockThree/BlockThree";
+import FourBlock from "@/components/FourBlock/FourBlock";
+import FormBlock from "@/components/FormBlock/FormBlock";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
