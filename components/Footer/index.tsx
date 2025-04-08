@@ -13,8 +13,8 @@ export default function Footer() {
                     <div className="flex flex-col gap-4 mt-6 md:mt-0">
                         <div className="text-gray-400">
                             <p>Adresse: Beispielstraße 12, 10115 Berlin, Deutschland</p>
-                            <p>Telefon: +49 30 12345678</p>
-                            <p>E-Mail: kontakt@fitnessstore.de</p>
+                            <p>Telefon: +49 30 84956734</p>
+                            <p>E-Mail: info@fitnesstoredege.com</p>
                         </div>
                     </div>
                 </div>
