@@ -1,7 +1,7 @@
 import Nav from "@/components/Nav/nav";
 
 
-export default function header() {
+export default function Header() {
 
   return (
     <header className="bg-[url('/hero.jpg')] bg-cover h-[80vh] sm:h-[100vh] w-full">

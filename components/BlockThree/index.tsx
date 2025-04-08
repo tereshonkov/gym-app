@@ -16,7 +16,7 @@ const fitnessStudioTips: string[] = [
   ];
   
 
-export default function index() {
+export default function Index() {
   return (
     <div className="relative w-screen min-h-screen flex flex-col items-center justify-around bg-gradient-to-b from-black to-gray-800 p-4 text-white">
         <h2 className="text-5xl text-center z-10">Wie man ein Fitnessstudio einrichtet: Schritt-für-Schritt-Anleitung zur Schaffung des perfekten Trainingsraums</h2>

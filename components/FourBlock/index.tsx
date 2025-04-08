@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 
-export default function index() {
+export default function Index() {
   return (
     <div className="w-full bg-gradient-to-b from-gray-800 to-black text-white  flex sm:flex-row flex-col items-center">
         <Image src={"/support.jpg"} width={400} height={400} alt="support" className="sm:w-1/2"/>

@@ -2,7 +2,7 @@
 import Image from "next/image"
 import { motion } from "framer-motion"
 
-export default function index() {
+export default function Index() {
   return (
     <section className=" min-h-screen w-screen p-8 flex flex-col justify-around items-center gap-8 relative bg-gradient-to-b from-gray-800 to-black text-white">
       <h2 className="text-5xl text-center">Unsere Produktpalette</h2>

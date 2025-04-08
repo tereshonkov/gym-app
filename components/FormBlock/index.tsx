@@ -8,7 +8,7 @@ type FormValue = {
     privacyPolicy: boolean;
 }
 
-export default function index() {
+export default function Index() {
     const [value, setValue] = useState<FormValue>({
         name: "",
         email: "",

@@ -4,6 +4,7 @@ import SecondBlock from "@/components/SecondBlock/index";
 import BlockThree from "@/components/BlockThree/index";
 import FourBlock from "@/components/FourBlock/index";
 import FormBlock from "@/components/FormBlock/index";
+import Footer from "@/components/Footer/index";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <BlockThree />
       <FourBlock />
       <FormBlock />
+      <Footer />
     </div>
   );
 }
