@@ -13,24 +13,27 @@ export default function Index() {
         name: "",
         email: "",
         category: "1",
-        privacyPolicy: false,  // Додано стан для чекбоксу
+        privacyPolicy: false,  
     });
+    const [showPopup, setShowPopup] = useState(false);
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         if (!value.privacyPolicy) {
-            alert("Bitte akzeptieren Sie die Datenschutzerklärung.");  // Попередження, якщо чекбокс не відмічено
+            alert("Bitte akzeptieren Sie die Datenschutzerklärung.");  
             return;
         }
 
-        // Виведення значень форми в консоль
+      
         console.log(value);
         setValue({
             name: "",
             email: "",
             category: "1",
-            privacyPolicy: false,  // Скидаємо значення чекбоксу після відправки форми
+            privacyPolicy: false,  
         });
+        setShowPopup(true); 
+        setTimeout(()=> {setShowPopup(false)}, 3000);
     }
 
     return (
@@ -66,7 +69,6 @@ export default function Index() {
                     <option value="3">Andere</option>
                 </select>
 
-                {/* Чекбокс для політики конфіденційності */}
                 <label className="text-sm text-gray-400 flex items-center gap-2">
                     <input
                         type="checkbox"
@@ -84,6 +86,13 @@ export default function Index() {
                     Absenden
                 </button>
             </form>
+            {showPopup && (
+                <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
+                    <div className="bg-white p-8 rounded-lg shadow-lg text-black">
+                        <p>Vielen Dank, dass Sie uns kontaktiert haben - wir werden uns in Kürze bei Ihnen melden!</p>
+                    </div>
+                </div>
+            )}
         </div>
     )
 }

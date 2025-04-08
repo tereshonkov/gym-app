@@ -52,7 +52,7 @@ export default function Nav() {
           </li>
           <li>
             <a
-              href="#"
+              href="/schreiben"
               className="hover:bg-green-500 rounded-2xl p-2 w-[150px] h-[30px] text-white flex items-center justify-center cursor-pointer bg-emerald-700"
             >
               Schreiben Sie Uns
