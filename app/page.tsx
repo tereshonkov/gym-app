@@ -1,6 +1,6 @@
 import Header from "@/components/Header/header";
 import First from "@/components/FirstBlock/Index";
-import SecondBlock from "@/components/SecondBlock/index";
+import SecondBlock from "@/components/SecondBlock/Index";
 import BlockThree from "@/components/BlockThree/Index";
 import FourBlock from "@/components/FourBlock/Index";
 import FormBlock from "@/components/FormBlock/Index";
