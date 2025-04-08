@@ -1,6 +1,9 @@
 import Header from "@/components/Header/header";
 import First from "@/components/FirstBlock/index";
 import SecondBlock from "@/components/SecondBlock/index";
+import BlockThree from "@/components/BlockThree/index";
+import FourBlock from "@/components/FourBlock/index";
+import FormBlock from "@/components/FormBlock/index";
 
 export default function Home() {
   return (
@@ -8,6 +11,9 @@ export default function Home() {
       <Header />
       <First />
       <SecondBlock />
+      <BlockThree />
+      <FourBlock />
+      <FormBlock />
     </div>
   );
 }

@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 
 export default function first() {
   return (
-    <section className="w-screen flex flex-col bg-gradient-to-b from-black to-gray-800">
+    <section className="w-screen flex flex-col text-white bg-gradient-to-b from-black to-gray-800">
       <h2 className="text-5xl text-center py-15">Für wen ist unser Fitness-Equipment genau richtig?</h2>
 
 {/* 1. Für Fitnessstudios */}
