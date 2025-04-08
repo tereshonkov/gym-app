@@ -12,7 +12,7 @@ export default function Nav() {
         <ul className="hidden lg:flex justify-center space-x-4">
           <li>
             <a
-              href="#"
+              href="#home"
               className="hover:bg-green-500 rounded-2xl p-2 w-[160px] h-[30px] text-white flex items-center justify-center cursor-pointer bg-emerald-700"
             >
               Startseite

@@ -4,7 +4,7 @@ import Nav from "@/components/Nav/nav";
 export default function Header() {
 
   return (
-    <header className="bg-[url('/hero.jpg')] bg-cover h-[80vh] sm:h-[100vh] w-full">
+    <header id="home" className="bg-[url('/hero.jpg')] bg-cover h-[80vh] sm:h-[100vh] w-full">
       <Nav />
       <div className="flex flex-col gap-4 items-center justify-center h-[80vh]">
         <h1 className="text-4xl text-center sm:text-5xl md:text-left text-white md:w-1/2">
